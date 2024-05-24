@@ -1,0 +1,14 @@
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\Shirts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\Shirts.AssemblyInfoInputs.cache
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\Shirts.AssemblyInfo.cs
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\Shirts.csproj.CoreCompileInputs.cache
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\bin\Debug\net7.0\Shirts.exe
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\bin\Debug\net7.0\Shirts.deps.json
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\bin\Debug\net7.0\Shirts.runtimeconfig.json
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\bin\Debug\net7.0\Shirts.dll
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\bin\Debug\net7.0\Shirts.pdb
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\Shirts.dll
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\refint\Shirts.dll
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\Shirts.pdb
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\Shirts.genruntimeconfig.cache
+C:\Users\dmste\OneDrive\Documents_OLD\Chaya's folder\Programs\Shirts\Shirts\obj\Debug\net7.0\ref\Shirts.dll
