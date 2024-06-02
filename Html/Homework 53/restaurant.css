@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+    font-size: 3em;
+    border: size 2px;
+    border-style:double;
+    border-color:blue; 
+    margin: 10px;
+    padding: 10px;    
+}
+
+h2 {
+    color: orange;
+    font-weight: 1000;
+}
+
+h3 {
+    color: deeppink;
+}
+
+span {
+    font-style: italic;
+}
+
+* {
+    background-color: azure;
+    text-align: center;
+}
+
