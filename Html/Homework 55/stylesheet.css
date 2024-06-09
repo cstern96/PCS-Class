@@ -1,0 +1,24 @@
+html {
+    background-color: black;
+    text-align: left;
+}
+
+body {
+    background-color: white;
+    margin: auto;
+    max-width: 1200px;    
+    padding: 20px;
+
+}
+
+.square {
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;  
+    display: inline-block;  
+    margin: 16.5px;
+}
