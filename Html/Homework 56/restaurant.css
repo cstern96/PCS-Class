@@ -1,0 +1,120 @@
+h1 {
+    color: blue;
+    font-size: 3em;
+    border: size 2px;
+    border-style: double;
+    border-color: blue;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 4px blue;
+
+}
+
+h2 {
+    color: orange;
+    font-weight: 1000;
+    text-transform: uppercase;    
+}
+
+h3 {
+    color: deeppink;
+}
+
+span {
+    font-style: italic;
+}
+
+p span {
+    font-weight: bold;
+}
+
+html {
+    background-color: azure;
+    text-align: center;
+    background-image: url(images/dot-background.jpg);
+    background-size: cover;
+}
+
+body {
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(243, 85, 146, 0.644);
+    padding: 20px;
+    
+
+}
+
+.menu-item {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-inline: auto;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px 6px;
+    line-height: 15px;    
+    display: inline-block; 
+    font-family: cursive;   
+}
+
+.menu-item img {
+    float: left;
+    padding: 1em;   
+}
+
+#MacnCheeseMenu {
+    color: blue;
+    border: 5px solid blue;
+    transform: translate(50px, 0px)        
+}
+
+#EggplantPaniniMenu {
+    color: green;
+    border: 5px solid green;
+}
+
+#LasagnaMenu {
+    color: purple;
+    border: 5px solid purple;
+    transform: translate(-50px, 0px)
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.reviews {
+    font-size: 20px;
+    width: 500 px;
+    height: 100px;
+    box-sizing: border-box;
+    border-style: double;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+video{
+    height: 300px;
+    width: auto;
+}
+
+    
