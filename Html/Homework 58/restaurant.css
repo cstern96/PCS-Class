@@ -1,0 +1,236 @@
+h1 {
+    color: blue;
+    font-size: 3em;
+    border: size 2px;
+    border-style: double;
+    border-color: blue;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 4px blue;
+
+}
+
+h2 {
+    color: orange;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Playwrite PL", cursive;
+}
+
+h3 {
+    color: deeppink;
+}
+
+span {
+    font-style: italic;
+}
+
+p span {
+    font-weight: bold;
+}
+
+html {
+    background-color: azure;
+    text-align: center;
+    background-image: url(images/dot-background.jpg);
+    background-size: cover;
+}
+
+body {
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(243, 85, 146, 0.644);
+    padding: 3em;
+
+
+}
+
+.menu-item {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-inline: auto;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px 6px;
+    line-height: 15px;
+    display: inline-block;
+    font-family: cursive;
+}
+
+.menu-item img {
+    float: left;
+    padding: 1em;
+}
+
+#MacnCheeseMenu {
+    color: blue;
+    border: 5px solid blue;
+    transform: translate(50px, 0px);
+}
+
+#EggplantPaniniMenu {
+    color: green;
+    border: 5px solid green;
+}
+
+#LasagnaMenu {
+    color: purple;
+    border: 5px solid purple;
+    transform: translate(-50px, 0px)
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.reviews {
+    font-size: 20px;
+    width: 500 px;
+    height: 100px;
+    box-sizing: border-box;
+    border-style: double;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    line-height: 20px;
+    position: relative;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+video {
+    height: 300px;
+    width: auto;
+}
+
+header,
+footer {
+    position: fixed;
+    max-width: 796px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background: rgba(243, 85, 146, 0.644);
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+.thumbs {
+    width: 50px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+@media(width <=800px) {
+    video {
+        width: 100%;
+    }
+}
+
+body>p {
+    color: blue;
+}
+
+p+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1~h3 {
+    text-decoration: underline;
+}
+
+section:not(#LasagnaMenu) {
+    a {
+        text-decoration: underline;
+    }
+}
+
+.reviews::first-line {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+tfoot {
+    background-color: red;
+}
+
+table tr:hover {
+    background-color: rgba(243, 85, 146, 0.644);
+    ;
+}
+
+table td:last-child {
+    font-weight: bolder;
+}
+
+.FeedbackLink {
+    color: black;
+    font-size: 20px;
+}
+form{
+    line-height: 2;
+}
+input:not(.location input){
+    width: 100%;
+}
+textarea{
+    width: 35em;
+    height:100px;
+}
+#experience{
+    width: 5em;
+}
+

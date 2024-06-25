@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="restaurant.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <form method="post" action="FeedbackResponses.html">
+        <label>
+            First Name: <input type="text" name="first" required>
+        </label>
+        <label>
+            Last Name: <input type="text" name="last">
+        </label>
+        <label>
+            Email: <input type="email" name="email">
+        </label>
+        <label>
+            Phone Number: <input type="tel" name="phone">
+        </label>
+        <div>
+            <label class="location">
+                Store Location: 
+                <input type="radio" name="location" value="Cedarhurst">Cedarhurst
+                <input type="radio" name="location" value="Lakewood">Lakewood
+                <input type="radio" name="location" value="Monsey">Monsey
+            </label>
+        </div>
+        <label>
+            Please rate your experience form 1 (lowest) to 10 (highest):
+            <input type="number" name="experience 1-10" id="experience" min="1" max="10">
+        </label>
+        <div>
+            <label>
+                Feedback:<textarea name="feedback" required placeholder="Please enter your feedback."></textarea>
+            </label>
+        </div>
+
+        <input type="submit">
+    </form>
+    <footer>
+        <a href="Menu.html">Menu</a>
+        <a href="index.html">Home</a>
+    </footer>
+</body>
+
+</html>
