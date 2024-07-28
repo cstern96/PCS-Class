@@ -20,4 +20,3 @@ console.log(FtoC(100));
 
 let celciusOrginal = prompt("Please enter a number you would like to convert from Celcius to Farenheit");
 alert(CtoF(celciusOrginal));
-
