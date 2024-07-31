@@ -1,3 +1,4 @@
+/* global alert, prompt, console */
 'use strict'
 function CtoF(C) {
     let F = C / 5 * 9 + 32;
