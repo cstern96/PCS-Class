@@ -16,13 +16,12 @@
     let start = true;
     let interval;
     startStopButton.addEventListener('click', function fullColor() {
-        if (start == true) {
+        if (start === true) {
             let i = 0;
-            function colorCycle() {
+            interval = setInterval(function colorCycle() {
                 document.body.style.backgroundColor = colorArray[i];
                 i++;
-            }
-            interval = setInterval(colorCycle, 2000);
+            }, 2000);
             startStopButton.innerText = 'stop';
             start = false;
         }
@@ -33,5 +32,5 @@
             start = true;
         }
     }
-    )
+    );
 }());

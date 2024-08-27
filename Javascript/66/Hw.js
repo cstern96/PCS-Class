@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const someLetters = ['A', 'B', 'C', 'D'];
 
@@ -15,7 +15,7 @@ console.log(checkLetters(someLetters));*/
 function myEvery(arr, callback) {
     for (let i = 0; i < arr.length; i++) {
         if (!callback(arr[i])) {
-            return false
+            return false;
         }
     }
     return true;
@@ -45,7 +45,7 @@ console.log(someLetters.some(lowercase));
 function myOnlyIf(arr, myFilter, action){
     for(let i = 0; i < arr.length; i++) {
         if (myFilter(arr[i])){
-            action(arr[i])
+            action(arr[i]);
         }
     }
 }
