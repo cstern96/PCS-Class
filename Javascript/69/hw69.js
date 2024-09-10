@@ -8,6 +8,6 @@
         document.body.appendChild(myNewButton);
         myNewButton.innerText = number;
         number++;
-    })
+    });
 
 }());
