@@ -16,7 +16,9 @@ window.app.counterCreater = (function createCounter(theModule) {
 
 }(window.app.counterCreater || {}));
 
-//I was unable to get window.app to surround this 
+// SL - this is pretty much the same thing as the other. There is only one of it...
+
+//I was unable to get window.app to surround this
 /*const counterCreater = (function createCounter() {
 
     let count = 0;
@@ -44,12 +46,3 @@ counterB.increment();
 counterB.increment();
 counterB.getCount();
 //counterA.getCount = 2*/
-
-
-
-
-
-
-
-
-
