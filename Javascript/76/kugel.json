@@ -1,0 +1,12 @@
+    {
+        "name": "Potato Kugel",
+        "image": "potatoKugel.jpg",
+        "ingredients": [
+            "potatoes",
+            "eggs",
+            "oil",
+            "salt",
+            "pepper",
+            "baking powder"
+        ]
+    }

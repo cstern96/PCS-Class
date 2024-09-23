@@ -1,13 +1,23 @@
 {
-  "extends" : "eslint:recommended",
+  "extends": "eslint:recommended",
   "rules": {
-    "semi": ["error", "always"],
-    "quotes": ["error", "single"],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
     "no-var": "error",
     "eqeqeq": "error"
   },
   "env": {
     "browser": true,
     "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017, // Set ECMAScript version to 2017 for async/await support
+    "sourceType": "module" // Use "module" if you're using import/export, else "script"
   }
 }

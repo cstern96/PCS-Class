@@ -1,0 +1,10 @@
+{
+    "name": "Pita Chip Salad",
+    "image": "salad.jpg",
+    "ingredients": [
+        "lettuce",
+        "tomatoes",
+        "cucumbers",
+        "dressing"
+    ]
+}
