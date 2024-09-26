@@ -1,0 +1,7 @@
+[
+    {"id": 1, "name": "El Hanaar Hazeh", "value": "elHanaar", "image": "elHanaar.png"},
+    {"id": 2, "name": "Ivri", "value": "ivri", "image": "ivri.png"},
+    {"id": 3, "name": "Kol Zman", "value": "kolZman", "image": "kolZman.png"},
+    {"id": 4, "name": "Yesh Tikva", "value": "yeshTikva", "image": "yeshTikva.png"}
+    
+]
