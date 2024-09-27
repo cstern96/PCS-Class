@@ -10,7 +10,7 @@
         const loadedVideos = await r.json();
         const videoDisplay = document.querySelector('#videos');
         loadedVideos.forEach(video => {
-            videoDisplay.innerHTML += `<div class="video-item" data-id="${video.id}">
+            videoDisplay.innerHTML += `<div class="video-item" data-value="${video.value}">
                     <h2>${video.name}</h2>
                     <img src="${video.image}" alt="${video.name}" style="max-width: 300px; height: auto;">
                 </div>`;
@@ -20,8 +20,8 @@
     }
     $(document).on('click', '.video-item', async function () {
         try {
-            const clickedVideoId = $(this).data('id');
-            const r = await fetch(`${clickedVideoId}.json`);
+            const clickedVideoValue = $(this).data('value');
+            const r = await fetch(`${clickedVideoValue}.json`);
             if (!r.ok) {
                 throw new Error(`${r.status} - ${r.statusText}`);
             }
