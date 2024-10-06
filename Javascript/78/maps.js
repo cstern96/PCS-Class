@@ -25,7 +25,7 @@
         placeName = document.querySelector('#search').value;
 
 
-        const geoNamesUrl = `http://api.geonames.org/wikipediaSearchJSON?q=${encodeURIComponent(placeName)}&maxRows=10&username=cstern96`;
+        const geoNamesUrl = `http://api.geonames.org/wikipediaSearchJSON?q=${encodeURIComponent(placeName)}&maxRows=10&username=`;
 
 
 
