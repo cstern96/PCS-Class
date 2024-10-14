@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("background.jpg");
+            background-size: cover;
+        }
+
+        .head-container {
+            grid-area: head;
+            display: grid;
+            place-items: center;
+        }
+        .parts-container{
+            grid-area: parts;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #head {
+            height: 500px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-areas: 
+            'parts head';
+            grid-template-columns: 200px 1fr;
+        }
+        .parts-container img{
+            width: 150px;
+        }
+        #glasses{
+            width: 200px;
+        }
+        .part{
+            position: relative;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="head-container">
+            <img id="head" src="head.png" alt="">
+        </div>
+        <div class="parts-container">
+            <img class="part" id="eyes" src="eyes.png" alt="" \>
+            <img class="part" id="glasses" src="glasses.png" alt="" \>
+            <img class="part" id="mouth" src="mouth.png" alt="" \>
+            <img class="part" id="nose" src="nose.png" alt="" \>
+        </div>
+    </div>
+    <audio src="gameMusic.mp3" autoplay="autoplay" loop></audio>
+    <script src="potato.js"></script>
+</body>
+</html>
