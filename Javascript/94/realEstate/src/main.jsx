@@ -7,7 +7,7 @@ import Home from './Home';
 import Buy from './buy';
 import Sell from './sell';
 
-createRoot(document.getElementById('root')).render(
+/*createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
 
   </StrictMode>,
-)
+)*/
 
 const router = createBrowserRouter([
   {
