@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.user-button{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    background-color: blanchedalmond;
+    font-size: 18px;
+}
+
+.bloggers-title{
+    text-align: center;
+}
+#goBack{
+    display: none;
+}
