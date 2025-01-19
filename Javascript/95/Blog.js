@@ -26,7 +26,7 @@
                 });
 
             });
-        
+
         backButton.addEventListener('click', () => {
 
             const allButtons = userList.querySelectorAll('.user-button');
@@ -61,14 +61,75 @@
             })
             .then(posts => {
                 posts.forEach(post => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<div> 
+                    const postLi = document.createElement('li');
+                    postLi.classList.add('postElem');
+                    postLi.id = post.id;
+                    postLi.innerHTML = `<div> 
                                 <h2> ${post.title}</h2>
                                 <p> ${post.body}</p>
                             </div>`;
-                    postList.appendChild(li);
+                    postList.appendChild(postLi);
+
+                    const commentButton = document.createElement('button');
+                    commentButton.textContent = 'Comments';
+                    postLi.appendChild(commentButton);
+
+
+
+
+
+                    commentButton.addEventListener('click', () => {
+                        let postLi = commentButton.parentNode;
+                        let commentList = postLi.querySelector('.comment-list');
+                        commentButton.textContent = 'Hide Comments';
+                        if (!commentList) {
+                            commentList = document.createElement('ul');
+                            commentList.classList.add('comment-list');
+                            postLi.appendChild(commentList);
+                            console.log('created list');
+
+                        } else {
+                            commentList.innerHTML = '';
+                            console.log('cleared list');
+                            commentList.style.display = 'none';
+                        }
+
+                        if (commentList.style.display !== 'none') {
+                            fetch(`https://jsonplaceholder.typicode.com/comments?postId=${post.id}`)
+                                .then(response => {
+                                    if (!response.ok) {
+                                        throw new Error('Failed to fetch user data');
+                                    }
+                                    return response.json();
+                                })
+                                .then(comments => {
+                                    comments.forEach(comment => {
+                                        const commentLi = document.createElement('li');
+                                        commentLi.innerHTML = `<div> 
+                                        <h2> ${comment.name}</h2>
+                                        <p> ${comment.email}</p>
+                                        <p> ${comment.body}</p>
+                                        </div>`;
+                                        commentList.appendChild(commentLi);
+                                    });
+                                }
+
+                                );
+                        }
+                        commentButton.textContent = commentList.style.display === 'none' ? 'Show Comments' : 'Hide Comments';
+                    });
+
                 });
+
             });
     }
+
+
+
+
+
+
+
+
 
 }());
