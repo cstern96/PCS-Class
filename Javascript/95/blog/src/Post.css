@@ -1,0 +1,15 @@
+.postBlock{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    background-color:deeppink;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.commentButton{
+    width: 100px;
+    height: 100px;
+}
