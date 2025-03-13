@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <form action="/about/save-name" method="POST">
+        <label>Name
+            <input name="name" type="text" value="{{name}}"/>
+        </label>
+        <button>apply</button>
+    </form>
+    <p>The last name was {{name}}</p>
+    <h1>{{appTitle}}</h1>
+</body>
+
+</html>
