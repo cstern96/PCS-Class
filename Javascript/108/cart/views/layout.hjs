@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body>
+    <h1>{{appTitle}}</h1>
+    <hr/>
+    {{> content}}
+    <form method="post" action= "/">
+      <label for="Search" name="search">Search for Type of Animal</label>
+      <input type="text">
+    </form>
+  </body>
+
+</html>
